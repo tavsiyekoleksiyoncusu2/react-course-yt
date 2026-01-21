@@ -1,5 +1,6 @@
 import User from "./User"
 import { useState } from "react";
+//PROPSLARI MAP EDİLEN SINGLE USER A GONDER VE USER DA AL.
 const UserComponents=()=>{
   const [users,setUsers]=useState([
   {
@@ -34,7 +35,7 @@ const UserComponents=()=>{
                     console.log(user)   
                     return(
                         <div>
-                            <User user={users} key={index}/>
+                            <User user={users} />
                         </div>
                     )
                })
@@ -44,4 +45,5 @@ const UserComponents=()=>{
   )
   return content;    
 }
+
 export default UserComponents
