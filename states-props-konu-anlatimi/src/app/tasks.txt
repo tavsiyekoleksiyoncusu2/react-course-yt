@@ -1,0 +1,7 @@
+1.UseRef ve useState arasındaki farkı anla
+
+2.Counter.jsx dosyasında gerekli counter implementlerini yap.(useState)
+
+3.Aynısını CounterRef.jsx için de yapın.(UseRef)
+
+4.Props işlemlerini yap ve tabloyu render et.
